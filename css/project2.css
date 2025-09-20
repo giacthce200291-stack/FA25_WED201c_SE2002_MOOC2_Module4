@@ -1,0 +1,40 @@
+/* Theme B: Dark, strong contrast, vibrant accent */
+:root {
+  --project-bg: #18181b;
+  --project-accent: #f43f5e;
+  --project-text: #f3f4f6;
+}
+body, .project-hero, .project-details {
+  background: var(--project-bg) !important;
+  color: var(--project-text) !important;
+}
+header, footer {
+  background: #111 !important;
+}
+.project-hero h1,
+.project-details h2 {
+  color: var(--project-accent) !important;
+}
+.project-card, .project-details {
+  box-shadow: 0 4px 24px rgba(244,63,94,0.15);
+}
+.gallery img {
+  border: 2px solid var(--project-accent);
+  background: #222;
+}
+.btn-back {
+  background: var(--project-accent);
+  color: #fff;
+}
+.btn-back:focus,
+.btn-back:hover {
+  background: #fff;
+  color: var(--project-accent);
+}
+a, .project-link {
+  color: var(--project-accent);
+}
+a:focus, a:hover {
+  color: #fff;
+  background: var(--project-accent);
+}

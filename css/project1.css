@@ -1,0 +1,29 @@
+/* Theme A: Minimal, pastel accent, soft shadows */
+:root {
+  --project-accent: #a7c7e7;
+  --project-shadow: rgba(167,199,231,0.15);
+}
+.project-hero, .project-details {
+  background: #f7fafc;
+  box-shadow: 0 4px 24px var(--project-shadow);
+}
+.project-hero h1,
+.project-details h2 {
+  color: #3b82f6;
+}
+.gallery img {
+  border: 2px solid var(--project-accent);
+  box-shadow: 0 2px 8px var(--project-shadow);
+}
+.project-details {
+  border: 1px solid #e0e7ef;
+}
+.btn-back {
+  background: var(--project-accent);
+  color: #222;
+}
+.btn-back:focus,
+.btn-back:hover {
+  background: #3b82f6;
+  color: #fff;
+}
